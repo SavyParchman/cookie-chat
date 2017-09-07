@@ -4,21 +4,57 @@ html {
 }
 
 body {
+  display: block;
   height: 95%;
   width: 100%;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.banner {
+  background-position: center top;
+  height: 312px;
+  background-size: 100%;
+  background-image: url(https://static.pexels.com/photos/163837/scenic-drive-mountains-panorama-landscape-163837.jpeg);
+  background-repeat: no-repeat;
+  margin: -40px;
+}
+
+.post {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .main-container {
-  width: 75%;
-  margin: 10px auto;
+  width: 100%;
+  margin: 0px auto;
   background: rgba(255, 255, 255, 0.86);
   padding: 5px;
   border-radius: 10px;
+  
 }
 
 .main-container h1 {
-  text-align: center;
+  text-align: justify;
+  padding-top: 45px;
+  padding-left: 70px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 60px;
+  color: white;
+}
+
+.card {
+  font-weight: 300;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+  border: 1px solid grey;
 }
 
 .text-box {
@@ -26,7 +62,7 @@ body {
   width: 40%;
 }
 
-p{
+p {
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
